@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    content: "";
+    position: relative;
+    width: 170px;
+    height: 38px;
+    border-radius: 80px;
+    border: 2px solid transparent;
+    overflow: hidden;
+    background-color: black;
+    transition: border-color 300ms; 
+}
+
+
+.box1:hover::before {
+    width: 100%;
+}
+
+.box1:hover {
+    border-color: transparent;
+}

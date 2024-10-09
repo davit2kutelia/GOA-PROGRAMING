@@ -1,0 +1,17 @@
+.box1{
+    background-image: url(tbilisi-capital-of-georgia-country.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 300px;
+    padding: 300px;
+    
+}
+
+.box2{
+    text-align: center;
+    padding: 250;
+    font-size: 40px; color: aliceblue;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+

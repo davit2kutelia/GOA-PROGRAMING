@@ -1,0 +1,130 @@
+
+body {
+    background-image: url(istockphoto-1987435635-1024x1024.webp);
+    display: flex; 
+    background-color: rgb(207, 216, 220);
+    justify-content: center;
+    align-items: center;
+    background-size: 800px 800px;
+    background-position: right bottom; 
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure the body takes the full height of the viewport */
+    flex-direction: column;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.parent {
+    width: 1200px; /* Adjusted width to fit better */
+    height: 800px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgb(206, 206, 206);
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+}
+
+.image-div, .form-div {
+    width: 50%;
+}
+
+.image-div {
+    background-image: url(istockphoto-1987435635-1024x1024.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.form-div form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 17px;
+    outline: none;
+    background-color: rgb(240, 240, 240);
+}
+
+button {
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 17px;
+    background-color: rgb(41, 98, 255);
+    border: 1px solid rgb(41, 98, 255);
+    color: aliceblue;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+input, button {
+    font-size: 18px;
+}
+
+a {
+    font-size: 17px;
+    text-decoration: none;
+    width: 100%;
+    text-align: end;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(70, 91, 101);
+}
+
+button:hover {
+    background-color: transparent;
+    color: rgb(41, 98, 255);
+}
+
+    
+
+
