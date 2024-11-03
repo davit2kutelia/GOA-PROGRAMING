@@ -1,0 +1,1 @@
+print("mzia zura ana nia")
