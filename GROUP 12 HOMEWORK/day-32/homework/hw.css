@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.body {
+    background-image: url("pexels-matheusnatan-3297593.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citys {
+    box-sizing: border-box;
+    border-radius: 9px;
+    width: 1200px;
+    height: 600px;
+    background-color: rgb(203, 190, 174);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.georgia {
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(173, 216, 230, 0.6);
+    background-color: transparent;
+    border-radius: 6px;
+    background-image: url("pexels-tomas-malik-793526-2990775.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    color: white;
+    opacity: 0.8;
+}
+
+.georgia:hover {
+    width: 320px;
+    height: 220px;
+}
+
+
+
+.italy{
+        box-sizing: border-box;
+        box-shadow: 5px 5px 15px rgba(173, 216, 230, 0.6);
+        
+        border-radius: 6px;
+        background-image: url("pexels-tomas-malik-793526-2990775.jpg") ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        transition: width 0.5s, height 0.5s;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        color: white;
+        opacity: 0.8;
+    }
+    
+    .italy:hover {
+        width: 320px;
+        height: 220px;
+
+    }
+
+.france{
+        box-sizing: border-box;
+        box-shadow: 5px 5px 15px rgba(173, 216, 230, 0.6);
+        background-color: transparent;
+        border-radius: 6px;
+        background-image: url("pexels-tomas-malik-793526-2990775.jpg") ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        transition: width 0.5s, height 0.5s;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        color: white;
+        opacity: 0.8;
+    }
+    
+    .france:hover {
+        width: 320px;
+        height: 220px;
+
+    }
+
+
