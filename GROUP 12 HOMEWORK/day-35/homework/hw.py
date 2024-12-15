@@ -30,3 +30,16 @@ def odd_or_even(arr):
         if i % 3 ==0 or i % 5 ==0:
             result.append(i)
     return sum(result) 
+
+    def points(games):
+    score = 0 
+    for game in games:
+        x = int(game[0])
+        y = int(game[2]) 
+        if x > y:
+            score += 3 
+        elif x < y:
+            score += 0  
+        else:
+            score += 1  
+    return score
