@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+
+}
+.box1{
+    grid-column: 1fr;
+
+}
+
+.box2{
+    grid-row: 200px;
+}
+
+.box3 .box4 .box5{
+    grid-row: 1fr 1fr 1fr;
+}

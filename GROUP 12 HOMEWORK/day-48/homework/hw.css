@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    overflow: hidden;
+    background-image: url('pexels-eberhardgross-2088203.jpg'); /* Make sure this is correct */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* or another suitable value */
+}

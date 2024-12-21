@@ -172,3 +172,9 @@ img {
 .back:hover{
     background-color: rgb(40, 40, 40);
 }
+
+.help h2:hover{
+    animation-name: shadow;
+    transition-duration: 1s;
+    
+}
