@@ -1,16 +1,71 @@
-.grid{
+.grid {
+    background-color: rgb(42, 36, 36);
     display: grid;
-
+    grid-template-columns: 4, 1fr; 
+    grid-template-rows: 150px 150px 150px; 
+    grid-gap: 0px; 
+    padding: 0px; 
+    border: 6px solid black;
+    grid-template-areas: 
+        "box1 box2 box2 box2"
+        "box1 box3 box4 box5"
+        "box1 box6 box6 box6"; 
 }
-.box1{
-    grid-column: 1fr;
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em; 
+    color: white; 
+    margin: 0; 
+    padding: 0; 
 }
 
-.box2{
-    grid-row: 200px;
+.box1 {
+
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: aqua;
+    grid-area: box1; 
 }
 
-.box3 .box4 .box5{
-    grid-row: 1fr 1fr 1fr;
+.box2 {
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: blue;
+    grid-area: box2; 
+}
+
+.box3 {border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: blueviolet;
+    grid-area: box3; 
+}
+
+.box4 {
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: skyblue;
+    grid-area: box4; 
+}
+
+.box5 {
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: aquamarine;
+    grid-area: box5; 
+}
+
+.box6 {
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: greenyellow;
+    grid-area: box6; 
 }
