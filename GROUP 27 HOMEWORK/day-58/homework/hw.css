@@ -1,0 +1,44 @@
+
+
+
+.f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 300px;
+}
+
+form{
+    box-sizing: border-box;
+    background-color: rgb(169, 218, 202);
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    position: absolute;
+    bottom: 220px;
+}
+
+input{
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    color: black;
+}
+
+button{
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
