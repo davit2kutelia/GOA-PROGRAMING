@@ -4,11 +4,13 @@
     outline: none;
     border: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    image-orientation: \\\;
 }
 
 body {
     background-color: rgb(24, 25, 28);
-    height: 2000px;
+    height: 3000px;
 }
 
 .man {
@@ -132,7 +134,7 @@ li a {
 
 .yoga{
     box-sizing: border-box;
-    background-color: rgb(147, 120, 62);
+    background-color: rgb(112, 112, 112);
     border-radius: 14px;
     border: 2px solid orange;
     width: 400px;
@@ -198,21 +200,49 @@ li a {
 
 
 .first{
+    box-sizing: border-box;
+    border: 10px solid rgb(239, 174, 53);
+    width: 600px;
+    height: 280px;
+    border-radius: 8px;
+    padding: 5px;
     position: absolute;
-    left: 400px;
+    left: 200px;
     top: 1500px;
+    color: white;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(73, 73, 73);
 }
 
 .second{
+    box-sizing: border-box;
+    border: 10px solid rgb(239, 174, 53);
+    width: 600px;
+    height: 280px;
+    border-radius: 8px;
+    padding: 5px;
     position: absolute;
-    left: 1000px;
+    left: 810px;
     top: 1500px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(73, 73, 73);
 }
 
 .third{
+    box-sizing: border-box;
+    border: 10px solid rgb(239, 174, 53);
+    width: 600px;
+    height: 280px;
+    border-radius: 8px;
+    padding: 5px;
     position: absolute;
-    left: 400px;
+    left: 200px;
     top: 1800px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(73, 73, 73);
 }
 
 .join-now{
@@ -242,3 +272,7 @@ li a {
     background-color: rgb(255, 191, 73);
 }
 
+.train-ways{
+    display: flex;
+    gap: 7px;
+}
