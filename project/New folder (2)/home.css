@@ -64,7 +64,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .nav-links {
@@ -88,7 +87,7 @@ li a {
     transition: color 0.3s ease;
 }
 
-.number{
+.number {
     box-sizing: border-box;
     border-radius: 17px;
     border: 2px solid white;
@@ -101,49 +100,42 @@ li a {
     font-size: 20px;
 }
 
-.train-ways{
+.train-ways {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.train-ways{
+
+.train-ways {
     position: absolute;
     top: 800px;
     left: 150px;
 }
-.gym{
-    box-sizing: border-box;
-    background-color: rgb(107, 107, 107);
-    border-radius: 14px;
-    border: 2px solid orange;
-    width: 400px;
-    height: 400px;
-    
-}
 
-
-.swim{
+.gym, .swim, .yoga {
     box-sizing: border-box;
     background-color: rgb(112, 112, 112);
     border-radius: 14px;
     border: 2px solid orange;
     width: 400px;
     height: 400px;
-    
+    transition-duration: 0.4s;
+    position: relative; /* Change this to relative */
 }
 
-.yoga{
-    box-sizing: border-box;
-    background-color: rgb(112, 112, 112);
-    border-radius: 14px;
-    border: 2px solid orange;
-    width: 400px;
-    height: 400px;
-    
-    
+.swim:hover, .yoga:hover {
+    width: 450px;
+    height: 450px;
+    transition: width 0.4s, height 0.4s;
 }
 
-.get-fit{
+.gym:hover{
+    width: 450px;
+    height: 450px;
+    transition: width 0.4s, height 0.4s;
+}
+
+.get-fit {
     box-sizing: border-box;
     border-radius: 14px;
     border: 2px solid orange;
@@ -154,52 +146,34 @@ li a {
     position: absolute;
     left: 600px;
     bottom: 150px;
-
 }
-.get-fit{
+
+.get-fit {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-
-.gym-text{
-    font-size: 17px;
-
-}
-
-.swim-text{
+.gym-text, .swim-text, .yoga-text {
     font-size: 17px;
 }
 
-
-.yoga-text{
-    font-size: 17px;
-}
-
-
-.train-ways img{
+.train-ways img {
     box-sizing: border-box;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     padding-top: 5px;
-    
 }
 
-.about-us img{
+.about-us img {
     box-sizing: border-box;
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    
-    
-    
 }
 
-
-.first{
+.first {
     box-sizing: border-box;
     border: 10px solid rgb(239, 174, 53);
     width: 600px;
@@ -211,11 +185,10 @@ li a {
     top: 1500px;
     color: white;
     font-size: 10px;
-    color: white;
     background-color: rgb(73, 73, 73);
 }
 
-.second{
+.second {
     box-sizing: border-box;
     border: 10px solid rgb(239, 174, 53);
     width: 600px;
@@ -230,7 +203,7 @@ li a {
     background-color: rgb(73, 73, 73);
 }
 
-.third{
+.third {
     box-sizing: border-box;
     border: 10px solid rgb(239, 174, 53);
     width: 600px;
@@ -245,7 +218,7 @@ li a {
     background-color: rgb(73, 73, 73);
 }
 
-.join-now{
+.join-now {
     box-sizing: border-box;
     border-radius: 14px;
     border: 2px solid orange;
@@ -257,22 +230,36 @@ li a {
     position: absolute;
     left: 650px;
     bottom: 80px;
-
 }
-.join-now{
+
+.join-now {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     transition-duration: 0.4s;
-
 }
 
-.join-now:hover{
+.join-now:hover {
     background-color: rgb(255, 191, 73);
 }
 
-.train-ways{
+.train-ways {
     display: flex;
-    gap: 7px;
+    gap: 20px;
+}
+
+
+#login3{
+    position: absolute;
+    right: 60px;
+    box-sizing: border-box;
+    border-radius: 9px;
+    width: 100px;
+    width: 120px;
+    background-color: rgb(74, 74, 255);
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

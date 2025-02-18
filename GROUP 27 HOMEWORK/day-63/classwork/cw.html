@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myh1">0</h1>
+    <button id="btn+">plus</button>
+    <button id="btn-">minus</button>
+    <button id="reset">reset</button>
+    <script>
+        document.getElementById("btn+").onclick = function(){
+            let h1 = document.getElementById("myh1")
+            let inc = Number(h1.textContent)
+            h1.textContent = inc + 1
+        }
+
+        document.getElementById("btn-").onclick = function(){
+            let h1 = document.getElementById("myh1")
+            let inc = Number(h1.textContent)
+            h1.textContent = inc - 1
+        }
+        document.getElementById("reset").onclick = function(){
+            let h1 = document.getElementById("myh1")
+            h1.textContent = 0
+
+        }
+
+    </script>
+</body>
+</html>
