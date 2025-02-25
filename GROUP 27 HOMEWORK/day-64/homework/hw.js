@@ -48,3 +48,16 @@
  
 
 // func(sleeptime)
+
+
+
+let luka = "apt"
+if(luka == "acept"){
+    console.log("luka acepted")
+
+}
+
+else{
+    console.log("luka rejected")
+}
+
