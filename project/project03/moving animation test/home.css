@@ -35,7 +35,7 @@ body {
 ul{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
     margin: 10px;
     list-style-type: none;
     cursor: pointer;
@@ -48,20 +48,49 @@ ul{
     left: 200px;
 }
 
-
-
 li{
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    border-radius: 10px;
-    background-color: rgb(74, 144, 56);
-    width: 120px;
-    height: 30px;
+    width: 200px;
+    height: 20px;
 }
 
+
+li{
+    
+    position: relative;
+    top: 2px;
+    right: 25px;
+     
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    background-color: black;
+    height: 50px;
+    width: 350px;
+    transition: text-decoration 0.2s;
+}
+
+
+li:hover{
+    text-decoration: underline blue 3px;
+    
+}
 .GETMONEY{
+    position: absolute;
+    height: 20px;
+    right: 10px;
+    top: 30px;
+}
+.GETMONEY{
+    border-radius: 8px ;
     background-color: white;
     color: black;
     box-shadow: greenyellow 0px -0px 3px 7px;
@@ -79,12 +108,7 @@ li{
     color: white;
 }
 
-li:hover{
-    transition: 0.3s;
-    text-decoration: underline;
-    background-color: bisque;
-    color: black;
-}
+
 
 button{
     margin-left: 150px;
@@ -146,3 +170,6 @@ nav{
                 }
     100%{transform: rotate(360);}
 }
+
+
+
